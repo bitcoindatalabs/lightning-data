@@ -52,3 +52,11 @@ lightning-data/
 1. **Analysis & Ingestion:** `LightningDS` computes centrality metrics, rankings, and channel topologies from raw gossip data into `Lightning/Data/parquet/`.
 2. **Staging:** Data is published and versioned in `lightning-data`.
 3. **Distribution (Option B):** Automated sync tasks push updated datasets into `plebdashboard-ln/data/` for zero-latency, local client delivery.
+
+---
+
+## License
+
+Data: [CC BY 4.0](LICENSE). Free to use, including commercially, with credit: "Source: Bitcoin Data Labs
+(bitcoindatalabs.org)". The helper script in `scripts/` is MIT-licensed. Node aliases and other fields announced over
+Lightning gossip are public network data.
