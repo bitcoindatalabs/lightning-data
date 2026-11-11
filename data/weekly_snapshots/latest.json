@@ -1,42 +1,33 @@
 {
   "schema": 1,
   "type": "daily_snapshot",
-  "target_date": "2026-11-09",
-  "as_of": "2026-11-09",
+  "target_date": "2026-11-10",
+  "as_of": "2026-11-10",
   "date_range": {
-    "start": "2026-11-03",
-    "end": "2026-11-09",
-    "start_formatted": "Nov 03",
-    "end_formatted": "Nov 09, 2026"
+    "start": "2026-11-04",
+    "end": "2026-11-10",
+    "start_formatted": "Nov 04",
+    "end_formatted": "Nov 10, 2026"
   },
   "metrics": {
-    "active_nodes": 13889,
-    "delta_nodes_7d": 48,
+    "active_nodes": 13881,
+    "delta_nodes_7d": 50,
     "delta_nodes_24h": 4,
-    "active_channels": 36765,
-    "delta_channels_7d": -1990,
-    "delta_channels_24h": 4,
-    "total_capacity_sats": 325099000000,
-    "total_capacity_btc": 3250.99,
-    "delta_capacity_btc_7d": 26.64,
-    "delta_capacity_btc_24h": 11.54,
+    "active_channels": 36757,
+    "delta_channels_7d": -1980,
+    "delta_channels_24h": -9,
+    "total_capacity_sats": 325830000000,
+    "total_capacity_btc": 3258.3,
+    "delta_capacity_btc_7d": 20.81,
+    "delta_capacity_btc_24h": 7.31,
     "median_channel_capacity_sats": 1000000,
-    "new_nodes_7d": 48,
-    "new_channels_7d": 1148,
-    "closed_channels_7d": 3138,
-    "new_channels_24h": 124,
-    "closed_channels_24h": 120
+    "new_nodes_7d": 50,
+    "new_channels_7d": 1202,
+    "closed_channels_7d": 3182,
+    "new_channels_24h": 207,
+    "closed_channels_24h": 216
   },
   "daily_breakdown": [
-    {
-      "date": "2026-11-03",
-      "date_formatted": "Nov 03",
-      "new_channels": 154,
-      "closed_channels": 172,
-      "capacity_added_btc": 54.52,
-      "capacity_closed_btc": 41.38,
-      "net_capacity_btc": 13.14
-    },
     {
       "date": "2026-11-04",
       "date_formatted": "Nov 04",
@@ -85,11 +76,20 @@
     {
       "date": "2026-11-09",
       "date_formatted": "Nov 09",
-      "new_channels": 124,
+      "new_channels": 125,
       "closed_channels": 120,
       "capacity_added_btc": 51.36,
       "capacity_closed_btc": 39.82,
       "net_capacity_btc": 11.54
+    },
+    {
+      "date": "2026-11-10",
+      "date_formatted": "Nov 10",
+      "new_channels": 207,
+      "closed_channels": 216,
+      "capacity_added_btc": 92.71,
+      "capacity_closed_btc": 85.4,
+      "net_capacity_btc": 7.31
     }
   ],
   "top_5_channels": [
@@ -115,7 +115,7 @@
       "node1_alias": "LNBiG [Hub-2]",
       "node2_alias": "cyberdyne.sh",
       "capacity": 500000000,
-      "block_tx_output_short_id": "974714x1778x1"
+      "block_tx_output_short_id": "974806x1256x1"
     },
     {
       "node1_pub": "034ea80f8b148c750463546bd999bf7321a0e6dfc60aaf84bd0400a2e8d376c0d5",
@@ -126,13 +126,13 @@
       "block_tx_output_short_id": "974714x1801x1"
     },
     {
-      "node1_pub": "0294ac3e099def03c12a37e30fe5364b1223fd60069869142ef96580c8439c2e0a",
+      "node1_pub": "02437c00ef5de2686a6bd60f8acb5c83d17010916010a15f479d5ef84c04f04485",
       "node2_pub": "03a93b87bf9f052b8e862d51ebbac4ce5e97b5f4137563cd5128548d7f5978dda9",
-      "node1_alias": "okx",
+      "node1_alias": "Kraken 🐙⚡",
       "node2_alias": "cyberdyne.sh",
       "capacity": 500000000,
-      "block_tx_output_short_id": "974712x2923x1"
+      "block_tx_output_short_id": "974558x194x0"
     }
   ],
-  "generated_at": "2026-11-10T20:46:31+00:00"
+  "generated_at": "2026-11-11T13:00:18+00:00"
 }
